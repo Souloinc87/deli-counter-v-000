@@ -9,7 +9,10 @@ def line(array)
 end
 
 def take_a_number(array, name)
+  counter = 0
   arr = []
-  array.each_with_index {|num, names| arr << "Welcome #{num}. You are number #{names + 1} in line." }
+  array.each do |names|
+    puts "Welcome #{names}. You are number #{counter += 1} in line."
+   end   
   arr
 end
