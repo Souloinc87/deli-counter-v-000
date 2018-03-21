@@ -10,6 +10,6 @@ end
 
 def take_a_number(array, name)
   arr = []
-  array.each_with_index {|num, names| arr << puts "Welcome #{names}. You are number #{num + 1} in line." }
+  array.each_with_index {|num, names| arr << "Welcome #{names}. You are number #{num + 1} in line." }
   arr 
 end
