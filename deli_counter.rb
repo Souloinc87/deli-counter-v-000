@@ -17,7 +17,6 @@ def now_serving(array)
   if array.length == 0
     puts "There is nobody waiting to be served!"
   elsif  array.length >= 1
-    array.unshift
-    array.all? {|person| puts "Currently serving #{person}."}
+    array.collect {|person| puts "Currently serving #{person.unshift}."}
   end
 end
