@@ -17,6 +17,8 @@ def now_serving(array)
   if array.length == 0
     puts "There is nobody waiting to be served!"
   elsif  array.length >= 1
-    array.each {|person| puts "Currently serving #{person}."}
+    arr = []
+    arr << array.each {|person| puts "Currently serving #{person}."}
+    arr 
   end
 end
