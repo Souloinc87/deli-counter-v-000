@@ -19,6 +19,6 @@ def now_serving(array)
   elsif  array.length >= 1
     arr = []
     arr << array.each {|person| puts "Currently serving #{person.first}."}
-    arr 
+    arr
   end
 end
