@@ -19,5 +19,6 @@ def now_serving(array)
   else
     num1 = array[0]
     puts "Currently serving #{num1}."
+    array.unshift(num1)
   end
 end
