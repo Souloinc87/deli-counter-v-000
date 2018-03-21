@@ -12,8 +12,8 @@ def take_a_number(array, name)
   counter = 0
   arr = []
   array.each do |names|
-    arr << names 
-    puts "Welcome #{names}. You are number #{counter += 1} in line."
-   end
-  arr
+    arr << names
+    puts "Welcome, #{names}. You are number #{counter += 1} in line."
+    arr
+  end
 end
