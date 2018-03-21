@@ -17,6 +17,6 @@ def now_serving(array)
   if array.length == 0
     puts "There is nobody waiting to be served!"
   elsif  array.length >= 1
-    array.sort! {|person| puts "Currently serving #{person.first}."}
+    array.map {|person| puts "Currently serving #{person.first}."}
   end
 end
