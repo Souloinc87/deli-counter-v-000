@@ -12,3 +12,11 @@ def take_a_number(array, name)
    array.push(name)
    puts "Welcome, #{name}. You are number #{array.length} in line."   
 end
+
+def now_serving(array)
+  if array.length == 0
+    puts "There is nobody waiting to be served!" 
+  elsif  array.length >= 1
+    array.map {|person| return "Currently serving #{person}."}
+  end 
+end 
